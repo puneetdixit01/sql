@@ -1,0 +1,23 @@
+/*create table salesmann(salesman_id int(10) primary key, division int foriegn key, first_name varchar(12) not null, last_name varchar(10), sin int(15));
+insert into salesmann (salesman_id,division,first_name, last_name,sin)
+values(1,1,'anuj','verma','678-112-489'),
+		(2,2,'aakash','    ','312-119-819'),
+		(3,3,'shreya','ghoshal','248-678-441'),
+ 		(4,1,'sudhanshu','sharma','531-829-320'),
+        (5,2,'love','verma','860-920-480'),
+        (6,2,'krishna','singh','781-321-8140'),
+        (7,4,'harsh vardhan','rathore','451-513-320');
+ create table divisions(division  int primary key,
+                        name varchar not null);
+  insert  into divisions values (1, 'east mumbai'),
+  								(2,'west mumbai'),
+                                (3,'north mumbai'),
+                                (4,'south mumbai');
+                                
+  create table product_sales (seller_id int primary key,date_of_sale varchar, product_id int foriegn key,quantity_sold int,unit_sales_price varchar decimal (5,2));*/
+  insert into product_sales values ( 1,'10-12-2023',1,'10','$10.00'),
+  							(2,'12-2-2023',4,'15','$256.78'),
+                            (3,'15-10-2023',6.'1','$58.98'),
+                            (6,'16/11/2023',8,'2','$600.10'),
+                            (0, null    ,0,'0','0');
+  
